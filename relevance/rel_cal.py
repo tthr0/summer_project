@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-website_url = "https://news.yahoo.co.jp/articles/334aa147c0209ac515a977fffb52b0ed56fc5132"  # 対象のウェブサイトのURL
-values_to_check = ["野球", "甲子園", "サッカー"]  # 関連性を調べる値のリスト
+website_url = "https://sample.com"  # 対象のウェブサイトのURL
+values_to_check = ["(VALUE)", "(VALUE)", "(VALUE)"]  # 関連性を調べる値のリスト
 
 # ウェブサイトへアクセスしてページのHTMLを取得
 response = requests.get(website_url)
